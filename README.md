@@ -1,2 +1,3 @@
 # friedrau.github.io
-Finite Probability Website
+# Finite Probability Website
+# Austin Friedrich
