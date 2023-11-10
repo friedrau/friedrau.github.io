@@ -1,10 +1,136 @@
-* { 
-	box-sizing: border-box;
+
+/* 
+	Creater: Austin Friedrich
+	Date Created : 11/8/2020
+	Last Updated : 11/9/2020
+	Website : Finite Probability
+	Styelsheet : app.css
+*/
+
+/* 
+	Website Color Codes:
+	Black jet:  #353535
+	Timberwolf: #D3D5D4
+	Dim Grey: 	#686868
+	Steal Blue: #457EAC
+	Lapiz Blue: #2D5D7B
+*/
+
+/* Navigation bar */
+.navbar{
+	overflow: hidden;
+	background-color: #353535;
 }
+
+.navbar a{
+	list-style-type: none;
+	overflow: hidden;
+	background-color: #353535;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+#navbarIcon{
+	display: block;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 20px;
+	color: #457EAC;
+	padding: 6px 16px;
+	font-weight: normal;
+	text-decoration: none;
+	float: left;
+}
+
+#navbarButton{
+	display: block;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 20px;
+	color: #457EAC;
+	padding: 20px 16px;
+	font-weight: normal;
+	text-decoration: none;
+	float: right;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+	background-color: #D3D5D4;
+  }
+
+/* Drop Down menu If screen to small */
+/* Mobile Form default is none */
+.mobile_form {
+    display: none;
+    }
+/* Web Form default is Block */
+.website_form {
+	width: 100%;
+	display: block;
+	}
+
+@media only screen and (min-width: 280px) and (max-width: 800px) {
+	.mobile_form{
+	width: 100%;
+	display: block; 
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	.website_form{
+	display: none; 
+	}
+}
+
+.dropbtn {
+	background-color: #353535;
+	font-family: 'Courier New', Courier, monospace;
+	color: #457EAC;
+	padding: 20px 16px;
+	font-size: 20px;
+	border: none;
+  }
+  
+  .dropdown {
+	float: right;
+	overflow: hidden;
+  }
+  /* responsible for containing elements of dropdown menu */
+  .dropdown-content {
+	right: 0;
+    left: auto;
+	display: none;
+	position: absolute;
+	background-color: #457EAC;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+  }
+  
+  /* Text Color and style and line styling*/
+  .dropdown-content a {
+	float: none;
+	color: #457EAC;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 20px;
+  }
+  
+  .dropdown-content a:hover {
+	background-color: #ddd;
+  }
+
+  .show {
+	display: block;
+  }
+/* End Drop Down menu If screen to small */
+/* End Navigation bar */
+
 html, body {
 	min-height: 100%;
-	background: #fff;
-	color: #000;
+	background: #686868;
+	color: #D3D5D4;
 }
 	/* sets the body height of the browser, so that backgrounds and div heights work correctly. Color and background will almost certainly be altered; they are just placeholders */
 	
@@ -16,7 +142,8 @@ body {
 	
 body, ul, ol, dl {
 	margin: 0;
-    color: black;
+    /* color: #ACB0BD;
+	background-color: #1F271B;*/
 }
 article, aside, audio, 
 footer, header, nav, section, video {

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="75.551178mm"
+   height="33.529358mm"
+   viewBox="0 0 75.551178 33.529358"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   sodipodi:docname="FiniteProbability.svg"
+   inkscape:export-filename="FiniteProbability_Grey_2000px.png"
+   inkscape:export-xdpi="672.39191"
+   inkscape:export-ydpi="672.39191"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.7989321"
+     inkscape:cx="144.53019"
+     inkscape:cy="61.703274"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="1072"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showgrid="true">
+    <inkscape:grid
+       id="grid4"
+       units="mm"
+       originx="-249.44882"
+       originy="981.52936"
+       spacingx="0.99999998"
+       spacingy="1"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="5"
+       dotted="false"
+       gridanglex="30"
+       gridanglez="30"
+       visible="true" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1">
+    <inkscape:path-effect
+       effect="powermask"
+       id="path-effect5"
+       is_visible="true"
+       lpeversion="1"
+       uri="#mask-powermask-path-effect5"
+       invert="false"
+       hide_mask="false"
+       background="true"
+       background_color="#ffffffff" />
+    <mask
+       maskUnits="userSpaceOnUse"
+       id="mask-powermask-path-effect5">
+      <path
+         id="mask-powermask-path-effect5_box"
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 65,36.30368 h 77 V 59.51965 H 65 Z" />
+      <path
+         d="m 71.11574,41.736055 v 5.76425 h 8.706678 v 1.738074 H 71.11574 v 6.281272 h -2.115746 v -15.49967 h 11.088278 v 1.716074 z m 11.974452,13.783596 v -15.49967 h 2.115746 v 15.49967 z m 16.194863,0 -8.352208,-13.200571 q 0.02215,0.539023 0.05538,1.067046 0.02215,0.45102 0.03323,0.957043 0.02217,0.49502 0.02217,0.880036 V 55.519651 H 89.1605 v -15.49967 h 2.459138 l 8.440822,13.288573 q 0,0 -0.06646,-1.078045 -0.02215,-0.46202 -0.04431,-1.001043 -0.02214,-0.550023 -0.02214,-1.045046 V 40.019981 h 1.90528 v 15.49967 z m 6.491235,0 v -15.49967 h 2.11575 v 15.49967 z m 12.18492,-13.783596 v 13.783596 h -2.10467 V 41.736055 h -5.36136 v -1.716074 h 12.8274 v 1.716074 z m 7.74296,13.783596 v -15.49967 h 11.84153 v 1.716074 h -9.72578 v 4.972214 h 9.06115 v 1.694074 h -9.06115 v 5.401233 h 10.17995 v 1.716075 z"
+         id="path5"
+         mask="none"
+         style="font-size:22.6074px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';stroke-width:0.351438"
+         aria-label="FINITE" />
+    </mask>
+    <filter
+       id="mask-powermask-path-effect5_inverse"
+       inkscape:label="filtermask-powermask-path-effect5"
+       style="color-interpolation-filters:sRGB"
+       height="100"
+       width="100"
+       x="-50"
+       y="-50">
+      <feColorMatrix
+         id="mask-powermask-path-effect5_primitive1"
+         values="1"
+         type="saturate"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         id="mask-powermask-path-effect5_primitive2"
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
+         in="fbSourceGraphic" />
+    </filter>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-66,-37.30368)">
+    <path
+       style="fill:#d3d5d4;fill-opacity:1;stroke:none;stroke-width:0.251626;stroke-dasharray:none;stroke-opacity:1"
+       id="rect5"
+       width="75"
+       height="21.215969"
+       x="66"
+       y="37.30368"
+       mask="url(#mask-powermask-path-effect5)"
+       inkscape:path-effect="#path-effect5"
+       sodipodi:type="rect"
+       d="m 66,37.30368 h 75 V 58.51965 H 66 Z"
+       transform="matrix(1.007349,0,0,1,-0.48503662,0)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.9391px;font-family:cav;-inkscape-font-specification:cav;fill:#d3d5d4;fill-opacity:1;stroke-width:0.303262"
+       x="61.882973"
+       y="73.914864"
+       id="text4"
+       transform="scale(1.0504425,0.95197976)"><tspan
+         sodipodi:role="line"
+         id="tspan4"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.9391px;font-family:'Caviar Dreams';-inkscape-font-specification:'Caviar Dreams';fill:#d3d5d4;fill-opacity:1;stroke-width:0.303262"
+         x="61.882973"
+         y="73.914864">PROBABILITY</tspan></text>
+  </g>
+</svg>
