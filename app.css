@@ -24,6 +24,7 @@
 	width: 100%;
 	top:0;
 	left: 0;
+	min-width: 300px;
 }
 
 .navbarWrapper{
@@ -31,6 +32,7 @@
 	height: 80px;
 	max-width: 800px;
 }
+
 .navbar a{
 	list-style-type: none;
 	overflow: hidden;
@@ -101,8 +103,15 @@
 	color: #457EAC;
 	padding: 20px 16px;
 	border: none;
+	background:url(./Images/UI\ Icons/dropbar_alt_1000px.png) no-repeat;
+	background-size: 30px;
+	background-position-x: center;
+	background-position-y: center;
+	height: 80px;
+	width: 80px;
 }
-  
+
+
 .dropdown {
 	float: right;
 	overflow: hidden;
@@ -144,6 +153,7 @@
 .dropdown-content a:hover {
 	background-color: #ddd;
 }
+
 
 .show {
 	display: block;

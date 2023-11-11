@@ -10,7 +10,7 @@ function dropDownMenuToggle() {
         myDropdown.classList.remove('show');
     }
     else if (!myDropdown.classList.contains('show')) {
-        document.getElementById("mainMenuDropDown").classList.toggle("show");
+        document.getElementById("mainMenuDropDown").classList.toggle('show');
     }
     
 }
@@ -23,5 +23,16 @@ window.onclick = function(e) {
         myDropdown.classList.remove('show');
         }
     }
+    else if (e.target.matches('.dropbtn')){
+        myDropdown.classList.add('show');
+    }
 }
 
+window.onresize = function resizeCheck(){
+    const mq = window.matchMedia( "(min-width: 700px)" );
+    if (mq.matches) {
+        var myDropdown = document.getElementById("mainMenuDropDown");
+        myDropdown.classList.remove('show');
+        //    alert("window width >= 700px");
+    }
+}
