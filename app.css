@@ -303,6 +303,7 @@ div#extra {
 div#footerSpacer{
 	height: 180px;
 	width: 100%;
+	min-width: 800px;
 	margin: auto;
 	display: flex;
 	background-color: white;
