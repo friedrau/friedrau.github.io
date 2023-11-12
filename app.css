@@ -25,6 +25,7 @@
 	top:0;
 	left: 0;
 	min-width: 300px;
+
 }
 
 .navbarWrapper{
@@ -199,37 +200,93 @@ div#header {
 	height: 80px;
 }
 
-div#extra {
-	background: #147FA9;
+/* animated subheader */
+div#animatedBar{
+	height: 180px;
+	background-color: white;
 }
 
 
-div#footer p {
-	padding: 20px 10px;
+@keyframes ani {
+    0%{
+      background-position: left top;
+    }
+    25%{
+      background-position: right bottom;
+     }
+    50% {
+      background-position: left bottom;
+    }
+    75% {
+      background-position: right top;
+    }   
+	100% {
+		background-position: left top;
+	}   
 }
 
+div#aBackground{
+	width: 600px;
+	min-width:600px;
+	height: 180px;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background:url(Images/BackgroungImages/GalaxySmaller.jpg);
+	animation: ani 20s linear infinite ;
+
+}
+
+
+img#animatedImage {
+    max-width: 800px;
+    max-height: 100%;
+}
+
+/* End animated subheader */
+
+/* wrapper for main content and side bar */
 div#wrapper {
 	float: left;
 	width: 100%;
 	min-width: 600px;
-	background-color: aqua;
+	background-color: #ffffff;
+	display: flex;
 }
-
 div#content {
-	background-color: orange;
+	background-color: #ffffff;
 	min-width: 200px;
 	max-width: 800px;
 	margin: auto;
+	align-items: center;
 	
 }
-
+/* Side Bar Warpper */
+div#sideBarWrapper{
+	margin:auto;
+	display: flex;
+}
 div#extra {
-	float: left;
-	width: 200px;
-	margin-left: -200px;
+	background: #ffffff;
+	min-width: 200px;
+	max-width: 300px;
+}
+
+.extraContentBlock{
+	background: #abb8c3;
+	padding: 16px 10px;
+	margin: 15px;
+}
+
+.contentBlock h1{
+	padding: 5px 20px;
 }
 
 /* Footer Styles */
+div#footer p {
+	padding: 20px 10px;
+}
 div#footer {
 	/*353535  */
 	background: #353535;
@@ -237,7 +294,7 @@ div#footer {
 	display: flex;
 	clear: left;
 	width: 100%;
-	min-width: 800px;
+	min-width: 400px;
 
 }
 .socialMedia a{
@@ -252,7 +309,8 @@ div#footer {
 .createdBy a{
 	text-align: center;
 	vertical-align: middle;
-	line-height: 50px;
+	line-height: 10px;
+	padding: 0;
 }
 .footerLogo{
 	margin-left: 0rem;
