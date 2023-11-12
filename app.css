@@ -213,7 +213,6 @@ div#animatedBar{
 	background-color: white;
 }
 
-
 @keyframes ani {
     0%{
       background-position: left top;
@@ -250,7 +249,6 @@ img#animatedImage {
     max-width: 800px;
 	object-fit: cover;
 }
-
 /* End animated subheader */
 
 /* wrapper for main content and side bar */
@@ -265,8 +263,6 @@ div#content {
 	background-color: #ffffff;
 	min-width: 200px;
 	max-width: 800px;
-	margin: auto;
-	align-items: center;
 	
 }
 /* Side Bar Warpper */
@@ -281,15 +277,27 @@ div#extra {
 }
 
 .extraContentBlock{
-	background: #abb8c3;
+	background: #f0f0f0;
 	padding: 16px 10px;
 	margin: 15px;
+	text-align: center;
+
+}
+.extraContentBlock li{
+	font-size: 12px;
+}
+
+.extraContentBlock img{
+	width: 150px;
 }
 
 .contentBlock h1{
 	padding: 5px 20px;
 }
 
+.contentBlock{
+	padding: 5px 10px;
+}
 /* Footer Styles */
 div#footer p {
 	padding: 20px 10px;
@@ -301,7 +309,6 @@ div#footer {
 	display: flex;
 	clear: left;
 	width: 100%;
-	min-width: 400px;
 
 }
 .socialMedia a{
@@ -333,5 +340,6 @@ div#footer {
 	display: flex;
 	text-align: center;
 	padding: 20px 20px;
+	min-width: 500px;
 }
 /* EndPage Layout */
