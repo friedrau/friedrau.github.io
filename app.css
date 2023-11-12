@@ -298,7 +298,16 @@ div#extra {
 .contentBlock{
 	padding: 5px 10px;
 }
+
 /* Footer Styles */
+div#footerSpacer{
+	height: 180px;
+	width: 100%;
+	margin: auto;
+	display: flex;
+	background-color: white;
+}
+
 div#footer p {
 	padding: 20px 10px;
 }
