@@ -32,6 +32,14 @@
 	margin:auto;
 	height: 80px;
 	max-width: 800px;
+	background-color: 353535;
+}
+
+.navbarWrapperCenter{
+	margin: auto;
+	height: 100%;
+	width: 90%;
+	background-color: 353535;
 }
 
 .navbar a{
@@ -65,7 +73,7 @@
 	color: #457EAC;
 	font-weight: normal;
 	text-decoration: none;
-	float:left;
+	float:right;
 }
 
 
@@ -225,8 +233,8 @@ div#animatedBar{
 }
 
 div#aBackground{
-	width: 600px;
-	min-width:600px;
+	width: 800px;
+	min-width:800px;
 	height: 180px;
 	margin: auto;
 	display: flex;
@@ -240,7 +248,7 @@ div#aBackground{
 
 img#animatedImage {
     max-width: 800px;
-    max-height: 100%;
+	object-fit: cover;
 }
 
 /* End animated subheader */
