@@ -205,7 +205,7 @@ ul li {
 }
 
 h3 {
-	padding: 5px 20px;
+	padding: 0px 0px;
 	margin: 0;
 }
 /* Space Between Navbar start location and webpage */
@@ -318,11 +318,18 @@ div#extra {
 }
 
 .contentBlock h1{
-	padding: 5px 20px;
+	padding: 0px 0px;
 }
 
 .contentBlock{
 	padding: 25px 20px;
+}
+
+.aboutHeader h3{
+	padding: 0px 0px;
+}
+.aboutHeader h1{
+	padding: 0px 0px;
 }
 
 /* Footer Styles */
