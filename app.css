@@ -16,6 +16,12 @@
 	Lapiz Blue: #2D5D7B
 */
 
+:root {
+	/* Sets mins and max for page size */
+	--webPageSize: 800px;
+	/* var(--webPageSize); */
+  }
+
 
 /* Navigation bar */
 .navbar{
@@ -31,7 +37,7 @@
 .navbarWrapper{
 	margin:auto;
 	height: 80px;
-	max-width: 800px;
+	max-width: var(--webPageSize);
 	background-color: 353535;
 }
 
@@ -232,21 +238,41 @@ div#animatedBar{
 }
 
 div#aBackground{
-	width: 800px;
-	min-width:800px;
+	width: var(--webPageSize);
+	min-width:var(--webPageSize);
 	height: 180px;
 	margin: auto;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background:url(Images/BackgroungImages/GalaxySmaller.jpg);
+
 	animation: ani 20s linear infinite ;
 
 }
+/* main page */
+.mainAnimatedBackground{
+	background:url(Images/BackgroungImages/GalaxySmaller.jpg);
+}
+/* About page */
+.aboutAnimatedBackground{
+	background:url(Images/BackgroungImages/About_Page_Background.png);
+}
+/* Project Page */
+.projectsAnimatedBackground{
+	background:url(Images/BackgroungImages/Project_Page_Background.png);	
+}
+/* Work Experience Page */
+.experienceAnimatedBackground{
+	background:url(Images/BackgroungImages/WorkExperience_Page_Background.png);	
 
+}
+/* Contact Page */
+.contactAnimatedBackground{
+	background:url(Images/BackgroungImages/Contact_Page_Background.png);	
+}
 
 img#animatedImage {
-    max-width: 800px;
+    max-width: var(--webPageSize);
 	object-fit: cover;
 }
 /* End animated subheader */
@@ -255,14 +281,14 @@ img#animatedImage {
 div#wrapper {
 	float: left;
 	width: 100%;
-	min-width: 800px;
+	min-width: var(--webPageSize);
 	background-color: #ffffff;
 	display: flex;
 }
 div#content {
 	background-color: #ffffff;
 	min-width: 200px;
-	max-width: 800px;
+	max-width: var(--webPageSize);
 	
 }
 /* Side Bar Warpper */
@@ -303,7 +329,7 @@ div#extra {
 div#footerSpacer{
 	height: 180px;
 	width: 100%;
-	min-width: 800px;
+	min-width: var(--webPageSize);
 	margin: auto;
 	display: flex;
 	background-color: white;
@@ -344,7 +370,7 @@ div#footer {
 }
 .footerWrapper{
 	margin: auto;
-	width: 800px;
+	width: var(--webPageSize);
 	height: 100%;
 	background-color: #353535;
 	display: flex;
