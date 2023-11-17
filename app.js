@@ -1,7 +1,3 @@
-function myTestFunction() {
-    const elem = document.getElementById("demo");
-    elem.textContent = "Hello World!"
-}
 
 /*toggle between hiding and showing the dropdown content */
 function dropDownMenuToggle() {
@@ -35,24 +31,4 @@ window.onresize = function resizeCheck(){
         myDropdown.classList.remove('show');
         //    alert("window width >= 700px");
     }
-}
-
-
-// Scroll down animation
-// When the user scrolls the page, execute myFunction
-window.onscroll = function() {navbarScrollDown()};
-
-// Get the header
-var header = document.getElementById("navbar");
-
-// Get the offset position of the navbar
-var sticky = header.offsetTop;
-
-// Add the solid class to the header when you reach its scroll position. Remove "solid" when you leave the scroll position
-function navbarScrollDown() {
-  if (window.scrollY > sticky) {
-    header.classList.add("solid");
-  } else {
-    header.classList.remove("solid");
-  }
 }
